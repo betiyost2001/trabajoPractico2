@@ -1,0 +1,19 @@
+.root {
+    flex-grow: 1;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navLinks {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+  }
+  
+  .linkButton {
+    margin: 0 10px;
+  }
+  
