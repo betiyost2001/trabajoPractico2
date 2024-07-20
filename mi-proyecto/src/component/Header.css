@@ -9,11 +9,38 @@
   
   .navLinks {
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     flex-grow: 1;
+    margin: 0px 20px;
+
   }
   
   .linkButton {
-    margin: 0 10px;
+    position: relative;
+    z-index: 1;
+
   }
-  
+
+  .linkButton::after {
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    left: 6px;
+    right: 6px;
+    height: 8px; /* Ajusta el grosor del subrayado */
+    background-color: #ffad00;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+    z-index: -1;
+}
+
+/* Mostrar el subrayado al pasar el mouse */
+.linkButton:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.imagen{
+  position: relative;
+}
