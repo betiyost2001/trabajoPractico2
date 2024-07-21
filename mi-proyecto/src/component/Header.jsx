@@ -8,8 +8,8 @@ import XIcon from '@mui/icons-material/X';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import Divider from '@mui/material/Divider';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import myImage from '../image/icono.png'
-
+import myImage from '../image/icon2.png'
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import './Header.css';  
 
 const Header = () => {
@@ -18,26 +18,28 @@ const Header = () => {
             <AppBar position="static" sx={{ backgroundColor: 'white' }}>
                 <Toolbar sx={{ color: 'black' }} >
                     <div className="logo">
-                        <img src={myImage} className='imagen' alt="icon" style={{ width: 150, height: 150 }} />
+                        <img src={myImage} className='imagen' alt="icon" style={{ width: 70, height: 70, margin: '0px 10px'}} />
                         <IconButton edge="start" color="inherit" aria-label="menu">
                         </IconButton>
-                        <Divider orientation="vertical" flexItem />
-                        <Typography variant="h5" sx={{ fontFamily: 'IBM Plex Mono, monospace', fontWeight: 800, textTransform: 'none', color: 'black'}} >
+                        <Typography variant="h5" sx={{ fontFamily: 'IBM Plex Mono, monospace', fontWeight: 800, textTransform: 'none', color: 'black', marginLeft: '-10px', marginRight: '20px', letterSpacing: '1px'}}>
                             BETINA
                         </Typography>
+                        <Divider orientation="vertical" flexItem />
                     </div>
                     <div className="navLinks">
-                        <Button sx={{ fontFamily: 'IBM Plex Mono, monospace', fontWeight: 800, textTransform: 'none', color: 'black' }}  className="linkButton MuiButton-label" variant="text" fontSize="10">Home</Button>
-                        <Button sx={{ fontFamily: 'IBM Plex Mono, monospace', fontWeight: 800 ,textTransform: 'none', color: 'black' }} className="linkButton" variant="text" fontSize="10">About</Button>
-                        <Button sx={{ fontFamily: 'IBM Plex Mono, monospace', fontWeight: 800, textTransform: 'none', color: 'black' }} className="linkButton" variant="text" fontSize="10">Pages</Button>
-                        <Button sx={{ fontFamily: 'IBM Plex Mono, monospace', fontWeight: 800, textTransform: 'none', color: 'black' }} className="linkButton" variant="text" fontSize="10">Portfolio</Button>
-                        <Button sx={{ fontFamily: 'IBM Plex Mono, monospace', fontWeight: 800, textTransform: 'none', color: 'black' }} className="linkButton" variant="text" fontSize="10">Shop</Button>
-                        <Button sx={{ fontFamily: 'IBM Plex Mono, monospace', fontWeight: 800, textTransform: 'none', color: 'black' }} className="linkButton" variant="text" fontSize="10">Contacts</Button>
+                        <Button sx={{ fontFamily: 'IBM Plex Mono, monospace', fontWeight: 800, textTransform: 'none', color: 'black', letterSpacing:'-1px', fontSize:'15px'}}  className="linkButton MuiButton-label" variant="text" fontSize="10">Inicio <KeyboardArrowDownIcon sx={{height:'18px', color: 'grey', '&:hover': {color: 'black',}}}></KeyboardArrowDownIcon></Button>
+                        <Button sx={{ fontFamily: 'IBM Plex Mono, monospace', fontWeight: 800, textTransform: 'none', color: 'black', letterSpacing:'-0.5px', fontSize:'15px' }} className="linkButton" variant="text">Sobre mi <KeyboardArrowDownIcon sx={{height:'18px', color: 'grey', '&:hover': {color: 'black',}}}></KeyboardArrowDownIcon></Button>
+                        <Button sx={{ fontFamily: 'IBM Plex Mono, monospace', fontWeight: 800, textTransform: 'none', color: 'black', letterSpacing:'-0.5px', fontSize:'15px' }} className="linkButton" variant="text" >Portafolio <KeyboardArrowDownIcon sx={{height:'18px', color: 'grey', '&:hover': {color: 'black',}}}></KeyboardArrowDownIcon></Button>
+                        <Button sx={{ fontFamily: 'IBM Plex Mono, monospace', fontWeight: 800, textTransform: 'none', color: 'black', letterSpacing:'-0.5px', fontSize:'15px' }} className="linkButton" variant="text">Experiencia <KeyboardArrowDownIcon sx={{height:'18px', color: 'grey', '&:hover': {color: 'black',}}}></KeyboardArrowDownIcon></Button>
+                        <Button sx={{ fontFamily: 'IBM Plex Mono, monospace', fontWeight: 800, textTransform: 'none', color: 'black', letterSpacing:'-0.5px', fontSize:'15px'}} className="linkButton" variant="text">Contácto</Button>
                     </div>
-                        <Button><XIcon sx={{ fontSize: 15 }}></XIcon></Button>
-                        <Button><InstagramIcon sx={{ fontSize: 15 }}></InstagramIcon></Button>
-                        <Button><GitHubIcon sx={{ fontSize: 15 }}></GitHubIcon></Button>
-                    <Button variant="contained" color="secondary">Contact Me</Button>
+                    <div className='botonLinks'>
+                        <Button sx={{ margin: '0 -10px' }}><XIcon sx={{ fontSize: 15, color: 'black', border: '2px solid #f7f7f7', borderRadius: '100%', padding: '5px'}}></XIcon></Button>
+                        <Button sx={{ margin: '0 -10px' }}><InstagramIcon sx={{ fontSize: 15, color: 'black', border: '2px solid #f7f7f7', borderRadius: '100%', padding: '5px' }}></InstagramIcon></Button>
+                        <Button sx={{ margin: '0 -10px' }}><GitHubIcon sx={{ fontSize: 15, color: 'black', border: '2px solid #f7f7f7', borderRadius: '100%', padding: '5px' }}></GitHubIcon></Button>
+                    </div>
+                    <Divider orientation="vertical" flexItem sx={{margin: '0px 30px'}} />
+                    <Button variant="contained" sx={{backgroundColor: 'black', '&:hover': {backgroundColor: 'gold',},  textTransform: 'none', fontWeight: 600}}>Contáctame</Button>
                 </Toolbar>
             </AppBar>
         </div>
