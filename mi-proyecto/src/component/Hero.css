@@ -1,0 +1,42 @@
+/* PresentationSection.css */
+.presentation-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: white;;
+}
+
+.text-content {
+    margin-top: 80px;
+    margin-left: 90px;
+    max-width: 65%;
+    z-index: 2;
+}
+
+.profile-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Opcional, para bordes redondeados */
+}
+
+.image-content {
+    max-width: 45%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.manchas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px; /* Ajusta según sea necesario */
+    height: auto;
+    z-index: -1; /* Asegúrate de que esté detrás del contenido principal */}
+
+.background-text {
+    position: absolute;
+    right: 80%;
+    top: -130px;
+    white-space: nowrap;
+    z-index: 1;}
