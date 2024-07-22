@@ -1,14 +1,15 @@
-// // src/App.js
-// import React from 'react';
-// import Header from './components/Header';
+import React from 'react';
+import Header from './component/Header';
+import Hero from './component/Hero';
+import './App.css';
 
-// function App() {
-//   return (
-//     <div>
-//       <Header />
-      
-//     </div>
-//   );
-// }
+const App = () => {
+    return (
+        <div className="app-container">
+            <Header />
+            <Hero />
+        </div>
+    );
+};
 
-// export default App
+export default App;

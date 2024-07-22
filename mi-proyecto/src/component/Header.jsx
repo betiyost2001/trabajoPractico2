@@ -14,7 +14,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div class="root" >
+        <div className="root" >
             <AppBar position="static" sx={{ backgroundColor: 'white' }}>
                 <Toolbar sx={{ color: 'black' }} >
                     <div className="logo">

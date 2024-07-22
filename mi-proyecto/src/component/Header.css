@@ -1,13 +1,15 @@
 .root {
     flex-grow: 1;
+    width: 100%;
+    z-index: 2;
+    position: relative;
   }
   
   .logo {
     display: flex;
     align-items: center;
   }
-  
-
+ 
   .navLinks {
     display: flex;
     justify-content: start;

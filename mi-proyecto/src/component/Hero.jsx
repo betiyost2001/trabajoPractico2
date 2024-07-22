@@ -1,10 +1,18 @@
 import React from 'react';
 import { Box, Typography, Button } from '@mui/material';
 import './Hero.css'; 
+import myImage from '../image/mancha.png'
+import myImage2 from '../image/fondo.png'
 
 const Hero = () => {
     return (
-        <Box className="presentation-section">
+        <Box className="hero">
+            <Box sx={{ position: 'absolute', width: '100%', height: '100vh' }}>
+                <Box className="content">
+                    <img src={myImage2} alt="Betina" className="profile-image" />
+                </Box>
+            </Box>
+            
             <Box className="text-content">
                 <Typography variant="h3" sx={{ fontFamily: 'IBM Plex Mono, monospace', fontWeight: 800, wordSpacing:'-10px'}}>
                     Hola! Soy Betina Yost -
@@ -18,11 +26,11 @@ const Hero = () => {
                 <Box className="contact-info">
                     <Box className="contact-item">
                         <Typography variant="body2" sx={{ fontWeight: 'bold', fontFamily: 'IBM Plex Mono, monospace', fontWeight: 800, letterSpacing: '-0.5px', fontSize:'15px' }}>Email:</Typography>
-                        <Typography variant="body2">nimbus2000@mail.com</Typography>
+                        <Typography variant="body2" sx={{color: '#9798b1', fontSize:'15px'}}>yostbetina20@gmail.com</Typography>
                     </Box>
                     <Box className="contact-item">
                         <Typography variant="body2" sx={{ fontWeight: 'bold', fontFamily: 'IBM Plex Mono, monospace', fontWeight: 800, letterSpacing: '-0.5px', fontSize:'15px' }}>Behance:</Typography>
-                        <Typography variant="body2">behance.net/nimbus2000</Typography>
+                        <Typography variant="body2" sx={{color: '#9798b1', fontSize:'15px'}}>behance.net/nimbus2000</Typography>
                     </Box>
                 </Box>
                 <Box>
@@ -30,14 +38,11 @@ const Hero = () => {
                     <Button variant="contained" sx= {{backgroundColor: '#000000', color: 'white', '&:hover': { backgroundColor: '#333333' },  textTransform: 'none',marginRight: '10px'}} >Contratame</Button>
                 </Box>
             </Box>
-            <Box className="image-content">
-                <img src="/path/to/your/image.png" alt="Ameli Nimbus" className="profile-image" />
-            </Box>
-            <Typography variant="h1" className="background-text" sx={{ color: '#f7f7f7', fontFamily: "Gloria Hallelujah", fontWeight: 800, position:'relative'}}>
+            
+            <Typography variant="h1" className="background-text" sx={{ color: '#f7f7f7', fontFamily: "Gloria Hallelujah", fontWeight: 800, position:'absolute'}}>
                 Betina
             </Typography>
-            <img src="/path/to/your/stain1.png" alt="Stain" className="manchas stain1" />
-            <img src="/path/to/your/stain2.png" alt="Stain" className="manchas stain2" />
+            <img src={myImage} alt="Stain" className="manchas stain1" />
         </Box>
         
     );
