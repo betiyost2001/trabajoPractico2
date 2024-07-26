@@ -1,0 +1,59 @@
+.about-me-section {
+    display: flex;
+    position: relative;
+    margin-top: 150px;
+}
+
+.imagenSonrie{
+    top:0;
+    right: 0;
+    position: relative;
+}
+
+.about-me-content {
+    margin-top: 200px;
+    margin-right: 120px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.sub-text {
+    color: #000;
+}
+
+.description-text {
+    margin-left: 50px;
+}
+
+.follow-text {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    font-size: 2rem;
+    color: #333;
+}
+.detalle {
+    position: absolute;
+}
+
+.detalle1 {
+    top: -320px;
+    left: 460px;
+    width: 500px;
+    height: auto;
+}
+
+.detalle2 {
+    bottom: 200px;
+    right: 0px;
+    width: 100px;
+    height: 250px;
+}

@@ -9,12 +9,12 @@
 }
 
 .profile-image {
-    height: auto; /* Mantén la proporción de la imagen */
+    height: 130vh; /* Mantén la proporción de la imagen */
 }
 
 .content {
     position: absolute;
-    top: -130px;
+    top: -100px;
     right: 0;
     width: auto;
     height: 100%;
@@ -52,7 +52,6 @@
 }
 
 .hero {
-    overflow: hidden;
     position: relative;
     width: 100%;
     height: 100vh; /* Ajusta la altura del Hero según tus necesidades */

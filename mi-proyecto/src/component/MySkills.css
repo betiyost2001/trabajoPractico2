@@ -1,0 +1,80 @@
+.my-skills-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    background: #fff;
+  }
+  
+  .my-skills-content {
+    max-width: 50%;
+  }
+  
+  .skills-title {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #000;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .skills-description {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 40px;
+  }
+  
+  .skills-list {
+    margin-top: 20px;
+  }
+  
+  .skill-item {
+    margin-bottom: 20px;
+  }
+  
+  .skill-name {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #000;
+    margin-bottom: 10px;
+  }
+  
+  .skill-progress {
+    height: 10px;
+    background-color: #ddd;
+  }
+  
+  .skill-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skill-icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .skill-icon-container:hover {
+    transform: scale(1.05);
+  }
+  
+  .skill-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-icon-name {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #000;
+  }
+  
