@@ -6,11 +6,13 @@ import skillIcon1 from '../image/skillIcon1.png';
 import skillIcon2 from '../image/skillIcon2.png';
 import skillIcon3 from '../image/skillIcon3.png';
 import skillIcon4 from '../image/skillIcon4.png';
+import detalle0 from '../image/detalle3.png'
+import detalle10 from '../image/manchaGramde.png'
 
 const skills = [
-  { name: 'Photoshop', level: 80 },
-  { name: 'Illustrator', level: 90 },
-  { name: 'Sketch', level: 70 },
+  { name: 'BASE DE DATOS', level: 60 },
+  { name: 'LENGUAJES DE PROGRAMACIÓN', level: 90 },
+  { name: 'DISEÑO WEB', level: 70 },
 ];
 
 const skillIcons = [
@@ -23,18 +25,22 @@ const skillIcons = [
 const MySkills = () => {
   return (
     <BoxMui className="my-skills-section">
+      <img src={detalle0} alt="Detalle0" className='manchas detalle10'/>
+      
       <BoxMui className="my-skills-content">
         <Typ variant="h4" className="skills-title">
         Que Incluyen Mis Habilidades De Software
         </Typ>
         <Typ variant="body1" className="skills-description">
-          These are the words we live by in everything we do. Every story we tell, every brand we build, and every interaction we create must not only look beautiful.
+        Cada historia que contamos, cada marca que construimos y cada interacción que creamos no solo debe verse hermosa, sino también resonar profundamente.
         </Typ>
         <BoxMui className="skills-list">
           {skills.map(skill => (
             <BoxMui key={skill.name} className="skill-item">
-              <Typ variant="body2" className="skill-name">{skill.name}</Typ>
-              <LinearProgress variant="determinate" value={skill.level} className="skill-progress" />
+              <Typ variant="body2" sx={{fontFamily:'font-family: "Roboto", sans-serif', fontWeight:600, fontSize:'13px', marginBottom:'-10px', marginTop:'10px'}}>{skill.name}</Typ>
+              <Typ variant="body2" sx={{marginLeft: '430px', fontFamily:'IBM Plex Mono, monospace'}}>{`${skill.level}%`}</Typ>
+              <LinearProgress variant="determinate" value={skill.level} className="skill-progress" sx={{ '& .MuiLinearProgress-bar': { backgroundColor: '#FFD700' }
+              , height:'10px'}}/>
             </BoxMui>
           ))}
         </BoxMui>
@@ -49,6 +55,7 @@ const MySkills = () => {
           ))}
         </Grid>
       </BoxChakra>
+      <img src={detalle10} alt="Detalle20" className='manchas detalle20'/>
     </BoxMui>
   );
 };

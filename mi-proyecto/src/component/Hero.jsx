@@ -25,16 +25,16 @@ const Hero = () => {
                 </Typography>
                 <Box className="contact-info">
                     <Box className="contact-item">
-                        <Typography variant="body2" sx={{ fontWeight: 'bold', fontFamily: 'IBM Plex Mono, monospace', fontWeight: 800, letterSpacing: '-0.5px', fontSize:'15px' }}>Email:</Typography>
+                        <Typography variant="body2" sx={{fontFamily: 'IBM Plex Mono, monospace', fontWeight: 800, letterSpacing: '-0.5px', fontSize:'15px' }}>Email:</Typography>
                         <Typography variant="body2" sx={{color: '#9798b1', fontSize:'15px'}}>yostbetina20@gmail.com</Typography>
                     </Box>
                     <Box className="contact-item">
-                        <Typography variant="body2" sx={{ fontWeight: 'bold', fontFamily: 'IBM Plex Mono, monospace', fontWeight: 800, letterSpacing: '-0.5px', fontSize:'15px' }}>Behance:</Typography>
+                        <Typography variant="body2" sx={{fontFamily: 'IBM Plex Mono, monospace', fontWeight: 800, letterSpacing: '-0.5px', fontSize:'15px' }}>Behance:</Typography>
                         <Typography variant="body2" sx={{color: '#9798b1', fontSize:'15px'}}>behance.net/nimbus2000</Typography>
                     </Box>
                 </Box>
                 <Box>
-                    <Button variant="contained"  sx={{ backgroundColor: '#FFA500', color: 'white', marginRight: '10px', '&:hover': { backgroundColor: '#e59400' },  textTransform: 'none',marginRight: '10px'  }}>Descargar CV</Button>
+                    <Button variant="contained"  sx={{ backgroundColor: '#FFA500', color: 'white', '&:hover': { backgroundColor: '#e59400' },  textTransform: 'none', marginRight: '10px' }}>Descargar CV</Button>
                     <Button variant="contained" sx= {{backgroundColor: '#000000', color: 'white', '&:hover': { backgroundColor: '#333333' },  textTransform: 'none',marginRight: '10px'}} >Contratame</Button>
                 </Box>
             </Box>

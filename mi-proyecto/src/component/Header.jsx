@@ -2,7 +2,7 @@ import React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
+import Button  from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import XIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -34,9 +34,9 @@ const Header = () => {
                         <Button sx={{ fontFamily: 'IBM Plex Mono, monospace', fontWeight: 800, textTransform: 'none', color: 'black', letterSpacing:'-0.5px', fontSize:'15px'}} className="linkButton" variant="text">Contácto</Button>
                     </div>
                     <div className='botonLinks'>
-                        <Button sx={{ margin: '0 -10px' }}><XIcon sx={{ fontSize: 15, color: 'black', border: '2px solid #f7f7f7', borderRadius: '100%', padding: '5px'}}></XIcon></Button>
-                        <Button sx={{ margin: '0 -10px' }}><InstagramIcon sx={{ fontSize: 15, color: 'black', border: '2px solid #f7f7f7', borderRadius: '100%', padding: '5px' }}></InstagramIcon></Button>
-                        <Button sx={{ margin: '0 -10px' }}><GitHubIcon sx={{ fontSize: 15, color: 'black', border: '2px solid #f7f7f7', borderRadius: '100%', padding: '5px' }}></GitHubIcon></Button>
+                        <Button sx={{ margin: '0 -10px' }}><XIcon sx={{ fontSize: '26px', color: 'black', border: '2px solid #f7f7f7', borderRadius: '100%', padding: '5px'}}></XIcon></Button>
+                        <Button sx={{ margin: '0 -10px' }}><InstagramIcon sx={{ fontSize: '26px', color: 'black', border: '2px solid #f7f7f7', borderRadius: '100%', padding: '5px' }}></InstagramIcon></Button>
+                        <Button sx={{ margin: '0 -10px' }}><GitHubIcon sx={{ fontSize: '26px', color: 'black', border: '2px solid #f7f7f7', borderRadius: '100%', padding: '5px' }}></GitHubIcon></Button>
                     </div>
                     <Divider orientation="vertical" flexItem sx={{margin: '0px 30px'}} />
                     <Button variant="contained" sx={{backgroundColor: 'black', '&:hover': {backgroundColor: 'gold',},  textTransform: 'none', fontWeight: 600}}>Contáctame</Button>

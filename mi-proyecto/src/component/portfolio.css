@@ -1,0 +1,23 @@
+.allProjectsButton {
+    background-color: #ffad00;
+    color: white;
+  }
+  
+  .allProjectsButton:hover {
+    background-color: #e69900;
+  }
+  
+  .projectItem img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .projectItem {
+    transition: transform 0.3s ease;
+  }
+  
+  .projectItem:hover {
+    transform: scale(1.05);
+  }
+  

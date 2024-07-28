@@ -3,6 +3,8 @@ import Header from './component/Header';
 import Hero from './component/Hero';
 import AboutMe from './component/AboutMe';
 import MySkills from './component/MySkills'
+import Portfolio from './component/Portfolio'
+import Contact from './component/contact'
 import './App.css';
 
 const App = () => {
@@ -12,6 +14,8 @@ const App = () => {
             <Hero />
             <AboutMe/>
             <MySkills/>
+            <Portfolio/>
+            <Contact/>
         </div>
     );
 };

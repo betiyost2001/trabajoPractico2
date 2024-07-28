@@ -1,26 +1,31 @@
 .my-skills-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 100px;
     background: #fff;
+    position: relative;
+    width: 100%;
   }
   
   .my-skills-content {
-    max-width: 50%;
+    max-width: 40%;
   }
   
   .skills-title {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'IBM Plex Mono', monospace !important;
+  
     color: #000;
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin-bottom: 20px;
+    font-size: 2rem !important;
+    font-weight: 600 !important;
+    margin-bottom: 20px !important;
+    letter-spacing: -1px !important;
   }
   
   .skills-description {
     font-family: 'IBM Plex Mono', monospace;
-    color: #333;
-    font-size: 1rem;
+    font-size: 14px;
+    font-weight: 500;
+    color: #8c8b8b;
     margin-bottom: 40px;
   }
   
@@ -38,10 +43,6 @@
     margin-bottom: 10px;
   }
   
-  .skill-progress {
-    height: 10px;
-    background-color: #ddd;
-  }
   
   .skill-icons {
     display: flex;
@@ -49,6 +50,7 @@
     gap: 20px;
     justify-content: center;
     align-items: center;
+    z-index: 2;
   }
   
   .skill-icon-container {
@@ -56,10 +58,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    background-color: white;
+    padding: 50px;
     border: 1px solid #eee;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgb(255, 255, 255);
     transition: transform 0.3s ease;
   }
   
@@ -74,7 +77,28 @@
   }
   
   .skill-icon-name {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'IBM Plex Mono', monospace !important;
+    font-weight: 800 !important;
+    font-size: 16px !important;
     color: #000;
   }
+
+  .manchas{
+    position: absolute;
+  }
   
+  .detalle10 {
+    left: 0;
+    top: -10vh;
+    width: 400px;
+    height: auto;
+}
+
+.detalle20 {
+  left: 116vh;
+  top: -10vh; /* Ajusta según sea necesario */
+  z-index: 1; 
+  height: 1000px;
+  width: 600px;
+}
+

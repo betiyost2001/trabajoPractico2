@@ -1,0 +1,15 @@
+.contact-section {
+    color: white;
+    z-index: 3 ;
+    top: 20%;
+    right: 0;
+    margin-bottom: 100px;
+}
+
+.fondo{
+    position: absolute;
+    z-index: -1;
+    left: 10%;
+    bottom: -10%;
+    border-radius: 1%;
+}
