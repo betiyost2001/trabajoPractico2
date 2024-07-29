@@ -1,10 +1,15 @@
 .root {
     flex-grow: 1;
     width: 100%;
-    z-index: 2;
+    z-index: 5;
     position: relative;
+
   }
   
+.menu-icon{
+  display: none;
+}
+
   .logo {
     display: flex;
     align-items: center;

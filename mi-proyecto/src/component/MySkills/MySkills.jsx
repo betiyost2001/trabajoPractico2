@@ -2,12 +2,12 @@ import React from 'react';
 import { Box as BoxMui, Typography as Typ, LinearProgress } from '@mui/material';
 import { Box as BoxChakra, Image, Grid } from '@chakra-ui/react';
 import './MySkills.css';
-import skillIcon1 from '../image/skillIcon1.png';
-import skillIcon2 from '../image/skillIcon2.png';
-import skillIcon3 from '../image/skillIcon3.png';
-import skillIcon4 from '../image/skillIcon4.png';
-import detalle0 from '../image/detalle3.png'
-import detalle10 from '../image/manchaGramde.png'
+import skillIcon1 from '../../image/skillIcon1.png';
+import skillIcon2 from '../../image/skillIcon2.png';
+import skillIcon3 from '../../image/skillIcon3.png';
+import skillIcon4 from '../../image/skillIcon4.png';
+import detalle0 from '../../image/detalle3.png'
+import detalle10 from '../../image/manchaGramde.png'
 
 const skills = [
   { name: 'BASE DE DATOS', level: 60 },

@@ -1,7 +1,8 @@
 /* PresentationSection.css */
 
 .text-content {
-    margin-top: 180px;
+    top: 200px;
+    margin-top: 80px;
     margin-left: 90px;
     max-width: 65%;
     z-index: 2;
@@ -57,3 +58,6 @@
     height: 100vh; /* Ajusta la altura del Hero según tus necesidades */
 }
     
+.texto2, .bot, .texto1{
+    font-size: 15px !important;
+}

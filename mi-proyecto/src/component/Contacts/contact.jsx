@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Container, Heading, SimpleGrid, Text, IconButton, Button, Icon } from '@chakra-ui/react';
 import { FaPhone,FaTelegramPlane, FaGithub  } from 'react-icons/fa';
 import './contact.css';
-import fondo from '../image/contact-bg.png'
+import fondo from '../../image/contact-bg.png'
 
 const Contact = () => {
     return (

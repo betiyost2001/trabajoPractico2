@@ -1,0 +1,97 @@
+/* responsiveHero.css */
+
+/* Estilos generales para pantallas pequeñas */
+@media (max-width: 768px) {
+    .hero {
+        height: auto; /* Ajusta la altura del Hero según el contenido */
+        margin-top: 80px;
+    }
+
+    .text-content {
+        top: 12vh;
+        margin: 40px 20px; /* Ajusta el margen para pantallas más pequeñas */
+        max-width: 80%;
+        margin-left: 10px;
+        text-align: start; /* Centra el texto en pantallas pequeñas */
+    }
+
+    .text-content h3{
+        font-size: 2rem;
+    }
+
+    .profile-image {
+        height: 10%; /* Ajusta la altura de la imagen */
+        width: 50vh; /* Asegura que la imagen ocupe todo el ancho */
+
+    }
+
+    .content {
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: auto;
+        align-items: center; /* Centra la imagen en pantallas pequeñas */
+        display: flex;
+        justify-content: end; /* Centra la imagen horizontalmente */
+    }
+
+    .manchas {
+        top: 200px; /* Ajusta la posición vertical de las manchas */
+        left: 0;
+        width: 100px; /* Ajusta el tamaño de las manchas */
+        height: auto; /* Ajusta la altura según el ancho */
+    }
+
+    .background-text {
+        font-size: 2rem; /* Ajusta el tamaño del texto para pantallas pequeñas */
+        top: 9vh;
+    }
+
+    .contact-item {
+        margin-bottom: 20px; /* Ajusta el margen inferior entre los elementos de contacto */
+        margin-right: 10px; /* Elimina el margen derecho */
+    }
+}
+
+@media (max-width: 500px) {
+    .text-content {
+        margin: 20px 10px; /* Ajusta el margen para pantallas más pequeñas */
+        top: 5vh;
+    }
+
+    .background-text {
+        font-size: 2rem; /* Ajusta aún más el tamaño del texto */
+        top: 3vh; /* Ajusta la posición del texto */
+        left: 1vh;
+    }
+
+    .manchas {
+        width: 80px; /* Ajusta el tamaño de las manchas */
+    }
+
+    .profile-image {
+        height: 10%; /* Ajusta la altura de la imagen */
+        width: 30vh; /* Asegura que la imagen ocupe todo el ancho */
+
+    }
+
+    .text-content h3 {
+        font-size: 25px;
+        letter-spacing: normal;
+    }
+
+    .texto1{
+        font-size:13px;
+    }
+}
+
+    .contact-info {
+        margin-top: 20px; /* Ajusta el margen superior */
+    }
+
+   .texto2, .bot{
+        font-size: 13px;
+        
+    }
+
+

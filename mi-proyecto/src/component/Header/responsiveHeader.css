@@ -1,0 +1,42 @@
+/* responsive.css */
+
+@media (max-width: 768px) {
+    .navLinks {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: white;
+        z-index: 100;
+    }
+
+    .navLinks.open {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: flex;
+        cursor: pointer;
+        margin-left: auto;
+    }
+
+    .botonLinks, .logo img, .logo .MuiTypography-root {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .navLinks {
+        top: 50px;
+    }
+
+    .navLinks a {
+        padding: 10px 20px;
+    }
+
+    .linkButton {
+        font-size: 14px;
+    }
+}

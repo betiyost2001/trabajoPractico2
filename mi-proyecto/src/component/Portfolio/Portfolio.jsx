@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Container, Box, Heading, Text, SimpleGrid, Image, Button } from '@chakra-ui/react';
 import './portfolio.css';
-import image1 from '../image/image1.png';
-import image2 from '../image/image2.png';
+import image1 from '../../image/image1.png';
+import image2 from '../../image/image2.png';
 
 const projectsData = [
     { id: 1, category: 'Diseño Web', image: image1},
@@ -44,9 +44,6 @@ const projectsData = [
           </Text>
         ))}
       </Box>
-        <Button className="allProjectsButton" variant="solid" colorScheme="yellow" position="absolute" top="16px" right="16px">
-          All Projects
-        </Button>
         <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} spacing={10}  >
           {filteredProjects.map(project => (
             <Box key={project.id} className="projectItem" boxShadow="md" display="flex" alignItems="center" justifyContent="center">
