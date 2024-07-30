@@ -1,0 +1,38 @@
+/* responsiveContact.css */
+
+@media (max-width: 600px) {
+    .fondo{
+        display: none;
+    }
+    .contact-section {
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.959);
+        text-align: center;
+        top: 0;
+    }
+
+    .contact-section p {
+        font-size: 11px !important;
+        text-align: center;
+    }
+
+    .chakra-icon {
+        background-color: rgba(0, 0, 0, 0) !important;
+    }
+
+    .chakra-text {
+        font-size: 14px !important;
+    }
+
+    .chakra-button {
+        margin-top: 20px;
+    }
+
+    .conten{
+        display: flex !important;
+        justify-content: center;
+    }
+    .itm{
+        padding: 10px;
+    }
+}

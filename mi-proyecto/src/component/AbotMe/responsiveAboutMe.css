@@ -1,0 +1,60 @@
+/* responsiveAboutMe.css */
+
+@media (max-width: 600px) {
+    .about-me-section {
+        flex-direction: column;
+        margin-top: 50px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .imagenSonrie {
+        display: none;
+    }
+
+    .about-me-content {
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .sub-text {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .description-text {
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .follow-text {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    .social-icons {
+        justify-content: center;
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    .social-icon {
+        font-size: 1.5rem;
+    }
+
+    .detalle1 {
+        top: -50px;
+        left: 0;
+        width: 100px;
+        height: auto;
+    }
+
+    .detalle2 {
+        bottom: 10px;
+        right: 0;
+        width: 50px;
+        height: 125px;
+    }
+}

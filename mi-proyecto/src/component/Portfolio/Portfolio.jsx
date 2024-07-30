@@ -3,6 +3,7 @@ import { Container, Box, Heading, Text, SimpleGrid, Image, Button } from '@chakr
 import './portfolio.css';
 import image1 from '../../image/image1.png';
 import image2 from '../../image/image2.png';
+import './responsivePortfolio.css'
 
 const projectsData = [
     { id: 1, category: 'Diseño Web', image: image1},
@@ -24,9 +25,9 @@ const projectsData = [
       : projectsData.filter(project => project.category === activeCategory);
   
     return (
-      <Container maxW="container.xl" mt={10} mx="auto" zIndex={2} px={4} >
+      <Container maxW="container.xl" mt={10} mx="auto" px={4} className='contener' >
         <Heading as="h1" size="xl" mb={4} fontFamily="IBM Plex Mono, monospace" marginLeft={20}>Conoce mis proyectos</Heading>
-        <Text fontSize="16px" mb={6} fontFamily=" Arial, Helvetica, sans-serif" marginRight={80} color='#8a8989' marginLeft={20}>
+        <Text fontSize="16px" mb={6} fontFamily=" Arial, Helvetica, sans-serif" marginRight={80} color='#8a8989' marginLeft={20} zIndex={3}>
         Soy estudiante, diseñadora de productos y creativa digital en formación. Aunque todavía no cuento con experiencia profesional, mis diseños son realizados con Visual Studio, React, MUI, Chakra, CSS y algunos componentes Java.
         </Text>
         <Box display="flex" mb={3} alignItems="center" marginLeft={20}>

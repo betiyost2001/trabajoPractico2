@@ -8,6 +8,7 @@ import skillIcon3 from '../../image/skillIcon3.png';
 import skillIcon4 from '../../image/skillIcon4.png';
 import detalle0 from '../../image/detalle3.png'
 import detalle10 from '../../image/manchaGramde.png'
+import './responsiveMySkills.css'
 
 const skills = [
   { name: 'BASE DE DATOS', level: 60 },
@@ -38,7 +39,7 @@ const MySkills = () => {
           {skills.map(skill => (
             <BoxMui key={skill.name} className="skill-item">
               <Typ variant="body2" sx={{fontFamily:'font-family: "Roboto", sans-serif', fontWeight:600, fontSize:'13px', marginBottom:'-10px', marginTop:'10px'}}>{skill.name}</Typ>
-              <Typ variant="body2" sx={{marginLeft: '430px', fontFamily:'IBM Plex Mono, monospace'}}>{`${skill.level}%`}</Typ>
+              <Typ variant="body2" className='porcentaj' sx={{marginLeft: '430px', fontFamily:'IBM Plex Mono, monospace'}}>{`${skill.level}%`}</Typ>
               <LinearProgress variant="determinate" value={skill.level} className="skill-progress" sx={{ '& .MuiLinearProgress-bar': { backgroundColor: '#FFD700' }
               , height:'10px'}}/>
             </BoxMui>
@@ -46,7 +47,7 @@ const MySkills = () => {
         </BoxMui>
       </BoxMui>
       <BoxChakra className="skill-icons">
-        <Grid templateColumns="repeat(2, 1fr)" gap={6}>
+        <Grid templateColumns="repeat(2, 1fr)" gap={6} className='caja'>
           {skillIcons.map(skill => (
             <BoxChakra key={skill.name} className="skill-icon-container" textAlign="center">
               <Image src={skill.icon} alt={skill.name} className="skill-icon" boxSize="50px" />

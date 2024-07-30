@@ -43,8 +43,8 @@
     }
 
     .background-text {
-        font-size: 2rem; /* Ajusta el tamaño del texto para pantallas pequeñas */
-        top: 9vh;
+        font-size: 3rem !important; /* Ajusta el tamaño del texto para pantallas pequeñas */
+        top: 5vh;
     }
 
     .contact-item {
@@ -60,7 +60,7 @@
     }
 
     .background-text {
-        font-size: 2rem; /* Ajusta aún más el tamaño del texto */
+        font-size: 1rem; /* Ajusta aún más el tamaño del texto */
         top: 3vh; /* Ajusta la posición del texto */
         left: 1vh;
     }
@@ -83,15 +83,15 @@
     .texto1{
         font-size:13px;
     }
-}
+
 
     .contact-info {
         margin-top: 20px; /* Ajusta el margen superior */
     }
 
    .texto2, .bot{
-        font-size: 13px;
+        font-size: 11px;
         
     }
-
+}
 

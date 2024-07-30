@@ -20,4 +20,8 @@
   .projectItem:hover {
     transform: scale(1.05);
   }
-  
+ 
+  .contener{
+    z-index: 3;
+    position: relative;
+  }

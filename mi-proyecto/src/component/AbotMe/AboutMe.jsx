@@ -7,6 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import imagen2 from '../../image/mujerSonrie.png'
 import mancha from '../../image/mancha2.png'
 import detalle1 from '../../image/detalle1.png'
+import './responsiveAboutMe.css';
 
 const AboutMe = () => {
     return (

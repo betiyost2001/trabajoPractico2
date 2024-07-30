@@ -33,11 +33,13 @@
     z-index: 1; /* Asegúrate de que esté detrás del contenido principal */}
 
 .background-text {
-    position: absolute;
     right: 78%;
-    top: 100px;
+    top:18vh ;
     white-space: nowrap;
-    z-index: 1;}
+    z-index: 1;
+    font-size: 6rem;
+
+}
 
 .contact-info {
     display: flex;
@@ -58,6 +60,7 @@
     height: 100vh; /* Ajusta la altura del Hero según tus necesidades */
 }
     
-.texto2, .bot, .texto1{
-    font-size: 15px !important;
+.texto1{
+    font-size: 2rem;
+
 }

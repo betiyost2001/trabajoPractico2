@@ -1,0 +1,99 @@
+/* responsiveMySkills.css */
+
+@media (max-width: 400px){
+    .porcentaj{
+        margin-left: 70vh !important;
+        margin-bottom: 6% !important;
+    }
+}
+
+@media (max-width: 500px){
+    .porcentaj{
+        margin-left: 70vh !important;
+        margin-bottom: 6% !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .my-skills-section {
+        flex-direction: column;
+        padding: 20px;
+        align-items: start;
+    }
+
+    .my-skills-content {
+        max-width: 90%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .skills-title {
+        font-size: 1.5rem !important;
+        margin-bottom: 10px !important;
+        text-align: center;
+    }
+
+    .skills-description {
+        font-size: 12px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .skills-list {
+        margin-top: 10px;
+    }
+
+    .skill-item {
+        margin-bottom: 10px;
+    }
+
+    .skill-name {
+        font-size: 12px;
+    }
+
+    .skill-icon-container {
+        padding: 20px;
+        box-shadow: none;
+        border: none;
+    }
+
+    .skill-icon {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 5px;
+    }
+
+    .skill-icon-name {
+        font-size: 14px !important;
+    }
+
+    .manchas {
+        display: none;
+    }
+
+    .detalle10 {
+        display: none;
+    }
+
+    .detalle20 {
+        top: -5vh;
+        right: 0;
+        width: 300px;
+    }
+
+    .skill-progress{
+        margin-top: -20px;
+        margin-right: 50px;
+    }
+
+    .porcentaj{
+        margin-left: 70vh !important;
+        margin-bottom: 6% !important;
+    }
+
+    .caja{
+        display: contents !important;
+    }
+
+    
+}

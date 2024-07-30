@@ -16,6 +16,10 @@ import './Header.css';
 import './responsiveHeader.css';
 
 const Header = () => {
+    const handleContactMe = () => {
+        window.location.href = 'mailto:yostbetina20@gmail.com?subject=Interesado%20en%20Contratarte&body=Hola%20Betina,%20';
+    };
+
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     const toggleMobileMenu = () => {
@@ -26,11 +30,11 @@ const Header = () => {
             <AppBar position="fixed" sx={{ backgroundColor: 'white', zIndex: '5'}}>
                 <Toolbar sx={{ color: 'black' }} >
                     <div className="logo">
-                        <img src={myImage} className='imagen' alt="icon" style={{ width: 70, height: 70, margin: '0px 10px'}} />
+                        <img src={myImage} className='imagen' alt="icon" style={{ width: 40, height: 50, margin: '0px -5px -20px 10px'}} />
                         <IconButton edge="start" color="inherit" aria-label="menu">
                         </IconButton>
                         <Typography variant="h5" sx={{ fontFamily: 'IBM Plex Mono, monospace', fontWeight: 800, textTransform: 'none', color: 'black', marginLeft: '-10px', marginRight: '20px', letterSpacing: '1px'}}>
-                            BETINA
+                            ETINA
                         </Typography>
                         <Divider orientation="vertical" flexItem />
                     </div>
@@ -63,7 +67,7 @@ const Header = () => {
                         <Button component="a" href="https://github.com/betiyost2001/" target="_blank" sx={{ margin: '0 -10px' }}><GitHubIcon sx={{ fontSize: '26px', color: 'black', border: '2px solid #f7f7f7', borderRadius: '100%', padding: '5px' }}></GitHubIcon></Button>
                     </div>
                     <Divider orientation="vertical" flexItem sx={{margin: '0px 30px'}} />
-                    <Button variant="contained" sx={{backgroundColor: 'black', '&:hover': {backgroundColor: 'gold',},  textTransform: 'none', fontWeight: 600}}>Contáctame</Button>
+                    <Button variant="contained" onClick={handleContactMe} sx={{backgroundColor: 'black', '&:hover': {backgroundColor: 'gold',},  textTransform: 'none', fontWeight: 600}}>Contáctame</Button>
                 </Toolbar>
             </AppBar>
         </div>
