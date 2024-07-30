@@ -4,6 +4,8 @@
     top: 20%;
     right: 0;
     margin-bottom: 100px;
+    display: grid;
+    justify-content: center;
 }
 
 .fondo{
@@ -19,6 +21,11 @@
 }
 
 .conten{
+
     display: flex !important;
     justify-content: center;
+}
+
+.itm{
+    margin-right: 20px;
 }

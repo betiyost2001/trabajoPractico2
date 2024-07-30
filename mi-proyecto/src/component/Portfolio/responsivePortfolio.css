@@ -42,3 +42,14 @@
 
     }
 }
+
+
+@media (max-width: 1024px){
+    .chakra-text{
+        width: 90vh;
+        padding: 0px 0px;
+        margin-left: -30px;
+    }
+}
+
+

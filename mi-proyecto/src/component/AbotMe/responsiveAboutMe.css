@@ -58,3 +58,21 @@
         height: 125px;
     }
 }
+
+@media (max-width: 1024px){
+    .imagenSonrie{
+        display: none;
+    }
+
+    .about-me-content {
+        margin-top: 120px;
+    }
+
+    .detalle1{
+        display: none;
+    }
+
+    .detalle2{
+        top: 30%;
+    }
+}

@@ -1,6 +1,7 @@
 import React from 'react';
-import { Box, Container, Heading, SimpleGrid, Text, IconButton, Button, Icon } from '@chakra-ui/react';
+import { Box, Container, Heading, SimpleGrid, Text, Icon } from '@chakra-ui/react';
 import { FaPhone,FaTelegramPlane, FaGithub  } from 'react-icons/fa';
+import Button  from '@mui/material/Button';
 import './contact.css';
 import fondo from '../../image/contact-bg.png'
 import './responsiveContact.css'
@@ -17,7 +18,7 @@ const Contact = () => {
                 <Heading as="h2" size="2xl" mb={10} color="white" fontFamily="IBM Plex Mono, monospace" className='habla'>
                     ¡Hablemos!
                 </Heading>
-                <SimpleGrid columns={{ base: 1, md: 3 }} spacing={0} mb={10} className='conten'>
+                <SimpleGrid columns={{ base: 1, md: 3 }} spacing={0} mb={10} className='boxres'>
                     <Box textAlign="center" className='itm'>
                         <Icon
                             as={FaPhone}
@@ -51,14 +52,7 @@ const Contact = () => {
                         <Text fontSize="lg" color="#a2a0a1">github.com/betiyost2001</Text>
                     </Box>
                 </SimpleGrid>
-                <Button
-                    colorScheme="yellow"
-                    size="lg"
-                    mt={4}
-                    onClick={handleContactMe}
-                >
-                    Contrátame
-                </Button>
+                <Button variant="contained" onClick={handleContactMe} sx={{backgroundColor: '#ffc13e', '&:hover': {backgroundColor: 'black',},  textTransform: 'none', fontWeight: 600}} className='butres'>Contratáme</Button>
             </Container>
         </Box>
     );

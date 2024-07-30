@@ -97,3 +97,37 @@
 
     
 }
+
+@media (max-width: 1024px){
+    .manchas {
+        display: none;
+    }
+
+    .my-skills-content {
+        margin-top: 0;
+        max-width: 100vh;
+      }
+
+    .my-skills-section{
+        display: grid;
+    }
+
+    .caja{
+        display: contents !important;
+        justify-items: start;
+        
+    }
+
+    .skill-icon-container {
+        padding: 20px 30px;
+        box-shadow: none;
+        
+    }
+    .skill-icons{
+        justify-content: center !important;
+        flex-wrap: nowrap;
+        margin-top: 10px;
+        margin-left: -40px;
+    }
+
+}

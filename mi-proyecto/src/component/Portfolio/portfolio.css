@@ -25,3 +25,8 @@
     z-index: 3;
     position: relative;
   }
+
+  .conoce{
+    font-size: 2rem !important;
+    font-weight: 600 !important;
+  }

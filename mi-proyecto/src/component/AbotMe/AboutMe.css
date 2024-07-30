@@ -1,13 +1,14 @@
 .about-me-section {
     display: flex;
     position: relative;
-    margin-top: 150px;
+    margin-top: 0px;
 }
 
 .imagenSonrie{
     top:0px;
     right: 0;
-    width: 130%;
+    width: 100vh;
+    height: 100vh;
     position: relative;
 }
 
