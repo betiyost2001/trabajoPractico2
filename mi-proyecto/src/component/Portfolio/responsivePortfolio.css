@@ -1,30 +1,25 @@
-/* responsivePortfolio.css */
-
 @media (max-width: 600px) {
     .contener {
         padding: 10px;
         text-align: center;
     }
 
-    .h1 {
+    .conoce {
         font-size: 1.5rem !important;
         margin-left: 0 !important;
     }
 
-    .p {
+    .chakra-text {
         font-size: 14px !important;
         margin: 10px 0 !important;
         color: #8a8989;
+        margin-left: 0 !important;
     }
 
     .chakra-box {
         flex-direction: column;
         align-items: center;
         margin-left: 0 !important;
-    }
-
-    .chakra-text {
-        margin: 5px !important;
     }
 
     .chakra-simplegrid {
@@ -38,18 +33,15 @@
     }
 
     .projectItem img {
-        max-width: 50% !important;
-
+        max-width: 100% !important;
+        height: auto !important;
     }
 }
-
 
 @media (max-width: 1024px){
-    .chakra-text{
-        width: 90vh;
+    .chakra-text {
+        width: 100%;
         padding: 0px 0px;
-        margin-left: -30px;
+        margin-left: 0 !important;
     }
 }
-
-

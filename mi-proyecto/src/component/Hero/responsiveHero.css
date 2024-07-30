@@ -1,6 +1,15 @@
 /* responsiveHero.css */
 
 /* Estilos generales para pantallas pequeñas */
+
+@media (max-width: 1300px){
+    .profile-image {
+        height: 80vh;
+        right: 0 !important;
+        width: 70vh;
+    }
+}
+
 @media (max-width: 768px) {
     .hero {
         height: auto; /* Ajusta la altura del Hero según el contenido */

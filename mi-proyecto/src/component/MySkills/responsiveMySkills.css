@@ -1,15 +1,13 @@
-/* responsiveMySkills.css */
-
-@media (max-width: 400px){
-    .porcentaj{
-        margin-left: 70vh !important;
+@media (max-width: 400px) {
+    .porcentaj {
+ 
         margin-bottom: 6% !important;
     }
 }
 
-@media (max-width: 500px){
-    .porcentaj{
-        margin-left: 70vh !important;
+@media (max-width: 500px) {
+    .porcentaj {
+      
         margin-bottom: 6% !important;
     }
 }
@@ -18,11 +16,11 @@
     .my-skills-section {
         flex-direction: column;
         padding: 20px;
-        align-items: start;
+        align-items: flex-start;
     }
 
     .my-skills-content {
-        max-width: 90%;
+        max-width: 100%;
         margin-bottom: 20px;
         margin-top: 20px;
     }
@@ -34,7 +32,7 @@
     }
 
     .skills-description {
-        font-size: 12px;
+        font-size: 1rem;
         margin-bottom: 20px;
         text-align: center;
     }
@@ -52,14 +50,14 @@
     }
 
     .skill-icon-container {
-        padding: 20px;
+        padding: 10px;
         box-shadow: none;
         border: none;
     }
 
     .skill-icon {
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         margin-bottom: 5px;
     }
 
@@ -78,56 +76,58 @@
     .detalle20 {
         top: -5vh;
         right: 0;
-        width: 300px;
+        width: 100px;
     }
 
-    .skill-progress{
-        margin-top: -20px;
-        margin-right: 50px;
+    .skill-progress {
+        margin-top: -10px;
+        margin-right: 20px;
     }
 
-    .porcentaj{
-        margin-left: 70vh !important;
+    .porcentaj {
+
         margin-bottom: 6% !important;
     }
 
-    .caja{
-        display: contents !important;
+    .caja {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
     }
-
-    
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
     .manchas {
         display: none;
     }
 
     .my-skills-content {
         margin-top: 0;
-        max-width: 100vh;
-      }
-
-    .my-skills-section{
-        display: grid;
+        max-width: 100%;
     }
 
-    .caja{
-        display: contents !important;
-        justify-items: start;
-        
+    .my-skills-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caja {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 10px;
     }
 
     .skill-icon-container {
-        padding: 20px 30px;
+        padding: 20px;
         box-shadow: none;
-        
     }
-    .skill-icons{
+
+    .skill-icons {
         justify-content: center !important;
         flex-wrap: nowrap;
         margin-top: 10px;
-        margin-left: -40px;
+        margin-left: 0;
     }
-
 }

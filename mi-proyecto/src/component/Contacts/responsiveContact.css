@@ -57,7 +57,7 @@
     }
     .chakra-icon {
         background-color: rgba(0, 0, 0, 0) !important;
-        margin-left: -40px;
+
     }
 
     .butres{
@@ -72,6 +72,6 @@
     .habla{
         font-weight: 600;
         margin-top: 20px;
-        margin-left: -30px;
+   
     }
 }
