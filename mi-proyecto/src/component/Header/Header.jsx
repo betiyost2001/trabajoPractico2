@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link as ChakraLink, Box } from '@chakra-ui/react';
+import { Link as ChakraLink} from '@chakra-ui/react';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
