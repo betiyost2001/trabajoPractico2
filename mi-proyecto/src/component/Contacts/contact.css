@@ -13,3 +13,12 @@
     bottom: -10%;
     border-radius: 1%;
 }
+
+.habla{
+    font-size: 3rem;
+}
+
+.conten{
+    display: flex;
+    justify-content: center;
+}

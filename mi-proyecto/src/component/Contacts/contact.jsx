@@ -14,7 +14,7 @@ const Contact = () => {
         <Box className="contact-section" position="relative" py={20} >
             <img src={fondo} alt="" className='fondo'/>
             <Container maxW="container.lg" textAlign="center">
-                <Heading as="h2" size="2xl" mb={10} color="white" fontFamily="IBM Plex Mono, monospace">
+                <Heading as="h2" size="2xl" mb={10} color="white" fontFamily="IBM Plex Mono, monospace" className='habla'>
                     ¡Hablemos!
                 </Heading>
                 <SimpleGrid columns={{ base: 1, md: 3 }} spacing={0} mb={10} className='conten'>
