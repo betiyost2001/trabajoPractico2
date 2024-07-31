@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, Typography, Button } from '@mui/material';
 import './Hero.css'; 
 import myImage from '../../image/mancha.png'
+import curriculum from '../../../public/Curriculum.pdf'
 import myImage2 from '../../image/fondo.png'
 import './responsiveHero.css'
 
@@ -39,7 +40,7 @@ const Hero = () => {
                     </Box>
                 </Box>
                 <Box>
-                    <Button variant="contained" className='bot'  sx={{ backgroundColor: '#FFA500', color: 'white', '&:hover': { backgroundColor: '#e59400' },  textTransform: 'none', marginRight: '10px' }}>Descargar CV</Button>
+                    <Button variant="contained" className='bot' href={curriculum} download sx={{ backgroundColor: '#FFA500', color: 'white', '&:hover': { backgroundColor: '#e59400' },  textTransform: 'none', marginRight: '10px' }}>Descargar CV</Button>
                     <Button variant="contained" className='bot' onClick={handleContactMe} sx= {{backgroundColor: '#000000', color: 'white', '&:hover': { backgroundColor: '#333333' },  textTransform: 'none',marginRight: '10px'}} >Contratame</Button>
                 </Box>
             </Box>
